@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+h1{
+    font-size: 3rem;
+    color: #333029;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: oswald;
+    background-color: #f2f0eb;
+    gap: 10px;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+nav li{
+    /* display: inline-block; */
+    font-size: 1.5em;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin: 0px 15px;
+    transition-duration: 0.3s;
+}
+
+li>a{
+    color: black;
+    text-decoration: none;
+}
+
+li>a:hover{
+    color: #8a2839;
+}
+
+li:hover{
+    font-size: 27px;
+}
+
+.navigation ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    list-style: none;
+    /* column-gap: 20px; */
+}
+
+#web{
+    order: 1;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    a{
+        margin-left: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+#maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#startdag{
+    width: 900px;
+    border-radius: 7.5px;
+    box-shadow: 0 0 10px #777777;
+    transition-duration: 0.6s;
+}
+
+#sectie{
+    h2{
+        text-align: center;
+    }
+    font-size: 10px;
+    width: 700px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin: 10px;
+}
+
+#startdag:hover{
+    width: 950px;
+}
+
+.trui{
+    width: 280px; 
+    height: 280px;
+    border-radius: 2.5%;
+    transition-duration: 0.5s;
+}
+
+.trui:hover{
+    width: 300px;
+    height: 300px;
+}
+
+#truicontainer{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    p{
+        font-size: 22px;
+    }
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    div img:first-of-type{
+        box-shadow: 0 0 8px #b8b4b4;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div img:nth-of-type(2){
+        width: 40px;
+        height: 40px;
+        transition-duration: 0.5s;
+    }
+
+    div img:nth-of-type(2):hover{
+        transform: rotate(-25deg);
+    }
+}
+
+#kalender{
+    border-radius: 2.5%;
+    margin-top: 10px;
+}
